@@ -1,0 +1,9 @@
+# Ignored files
+.idea
+lib
+
+### Node ###
+node_modules
+
+### Mac OS ###
+.DS_Store
