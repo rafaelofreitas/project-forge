@@ -1,9 +1,10 @@
 {
-  "devDependencies": {
-    "@commitlint/cli": "^19.4.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^9.1.6"
+  "name": "project-forge",
+  "version": "1.0.0",
+  "description": "Template-based scaffolding for the Java ecosystem and common microservices tools ☕ 🖥️✨",
+  "main": "commitlint.config.js",
+  "directories": {
+    "lib": "lib"
   },
   "config": {
     "commitizen": {
@@ -13,5 +14,13 @@
   "scripts": {
     "prepare": "husky",
     "commitlint": "commitlint --edit"
+  },
+  "author": "Rafael Freitas",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.5"
   }
 }
